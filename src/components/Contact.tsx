@@ -11,10 +11,11 @@ const Contact = () => {
             Let's Work Together
           </h2>
           <p className="text-lg text-muted-foreground mb-16 fade-up stagger-1">
-            I'm actively seeking opportunities to start my career as a software developer. 
-            Let's connect and discuss how I can contribute to your team.
+            I'm actively seeking opportunities to start my career as a software
+            developer. Let's connect and discuss how I can contribute to your
+            team.
           </p>
-          
+
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <Card className="glass-card border-0 fade-up stagger-2">
               <CardContent className="p-6">
@@ -27,10 +28,12 @@ const Contact = () => {
                 <p className="text-muted-foreground mb-4">
                   Send me an email and I'll get back to you as soon as possible.
                 </p>
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="w-full group"
-                  onClick={() => window.location.href = 'mailto:namberdarparth@gmail.com'}
+                  onClick={() =>
+                    (window.location.href = "mailto:namberdarparth@gmail.com")
+                  }
                 >
                   <Mail className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
                   namberdarparth@gmail.com
@@ -38,7 +41,7 @@ const Contact = () => {
                 </Button>
               </CardContent>
             </Card>
-            
+
             <Card className="glass-card border-0 fade-up stagger-3">
               <CardContent className="p-6">
                 <div className="flex items-center justify-center mb-4">
@@ -48,29 +51,36 @@ const Contact = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Call Me</h3>
                 <p className="text-muted-foreground mb-4">
-                  Feel free to give me a call to discuss opportunities or collaborations.
+                  Feel free to give me a call to discuss opportunities or
+                  collaborations.
                 </p>
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="w-full group"
-                  onClick={() => window.location.href = 'tel:8307528836'}
+                  onClick={() => (window.location.href = "tel:+91 95887 11596")}
                 >
                   <Phone className="mr-2 h-4 w-4 group-hover:rotate-12 transition-transform" />
-                  +91 8307528836
+                  +91 +91 95887 11596
                   <ExternalLink className="ml-2 h-4 w-4" />
                 </Button>
               </CardContent>
             </Card>
           </div>
-          
+
           <div className="fade-up stagger-3">
-            <h3 className="text-2xl font-semibold mb-6">Ready to Start My Career</h3>
+            <h3 className="text-2xl font-semibold mb-6">
+              Ready to Start My Career
+            </h3>
             <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-              As a fresh graduate with practical internship experience, I'm eager to apply my skills 
-              in full-stack development and contribute to meaningful projects. I'm open to entry-level 
-              positions, internships, or collaborative opportunities.
+              As a fresh graduate with practical internship experience, I'm
+              eager to apply my skills in full-stack development and contribute
+              to meaningful projects. I'm open to entry-level positions,
+              internships, or collaborative opportunities.
             </p>
-            <Button size="lg" className="group hero-gradient border-0 text-white">
+            <Button
+              size="lg"
+              className="group hero-gradient border-0 text-white"
+            >
               <MessageSquare className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
               Start a Conversation
             </Button>
